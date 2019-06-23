@@ -1,0 +1,105 @@
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.h1{
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.header a {
+  /* float: left; */
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 10px 13px;
+  text-decoration: none;
+    background-color: white;
+    width: 250px;
+    border: 25px solid #333;
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.column {
+  float: left;
+}
+
+.column.side {
+  width: 25%;
+	background-color: rgba(100, 100, 100, 0.5);
+	border: 5px solid transparent;
+	border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+	border-image-slice: 1;
+	color: white;
+	margin: 20px auto;
+
+}
+
+
+.column.middle {
+  width: 50%;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+
+img {
+  max-width: 100%;
+}
+
+.box {
+  background-color: white;
+  max-width: 550px;
+  border: 25px solid black;
+  padding: 25px;
+  margin: 25px;
+  text-align: center;
+  display: inline-block;
+
+}
+
+.titles {
+  font-size: 60px;
+  font-weight: bold;
+
+}
+
+.Price {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: yellow;
+  width: 40px;
+  height: 40px;
+}
